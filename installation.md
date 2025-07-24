@@ -40,15 +40,18 @@ claude doctor
 # Step 2: Install Python 3.10+
 brew install python@3.10
 
-# Step 3: Install Node.js
-brew install node@18
+# Step 3: Install uv
+brew install uv
 
-# Step 4: Install Claude-Code
+# Step 4: Install Node.js
+brew install node@24
+
+# Step 5: Install Claude-Code
 npm install -g @anthropic/claude-code
 
-# Step 5: Login (via OAuth) to Claude
+# Step 6: Login (via OAuth) to Claude
 claude login
 
-# Step 6: Verify installation
+# Step 7: Verify installation
 claude doctor
 ```
