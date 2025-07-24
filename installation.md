@@ -24,8 +24,11 @@ sudo apt-get install -y nodejs
 # Step 6: Install Claude-Code
 npm install -g @anthropic/claude-code
 
-# Step 7: Verify installation
-claude --version
+# Step 7: Login (via OAuth) to Claude
+claude login
+
+# Step 8: Verify installation
+claude doctor
 ```
 
 ### 1.2 macOS Installation
@@ -43,10 +46,9 @@ brew install node@18
 # Step 4: Install Claude-Code
 npm install -g @anthropic/claude-code
 
-# Step 5: Configure API access
-export ANTHROPIC_API_KEY="your-api-key-here"
-echo 'export ANTHROPIC_API_KEY="your-api-key-here"' >> ~/.zshrc
+# Step 5: Login (via OAuth) to Claude
+claude login
 
 # Step 6: Verify installation
-claude --version
+claude doctor
 ```
