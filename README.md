@@ -2,4 +2,5 @@
 
 ## Table of Contents
 
-[Installation](installation.md)
+1. [Installation](installation.md)
+2. [Manage Claude's memory](memory.md)
